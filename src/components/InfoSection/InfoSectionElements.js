@@ -82,7 +82,7 @@ export const Subtitle = styled.p`
     margin-bottom:35px;
     margin-top:35px;
     font-size:18px;
-    line-height:32px;
+    line-height:40px;
     font-weight:600;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')
     };
@@ -96,6 +96,10 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
     max-width:555px;
     height:100%;
+
+    @media screen and (max-width:768px){
+        margin-top:-160px;
+    }
 `
 
 export const Img = styled.img`
@@ -103,4 +107,5 @@ export const Img = styled.img`
     margin: 0 0 10px 0;
     padding-right:0;
     height:auto;
+    opacity:0.8;
 `
