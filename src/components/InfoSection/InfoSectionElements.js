@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const InfoContainer = styled.div`
    color:#fff;
-   background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')
+   background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#091C29')
     };
 
     @media screen and (max-width:768px) {
@@ -21,7 +21,7 @@ export const InfoWrapper = styled.div`
     justify-content:center;
     margin-left:auto;
     margin-right:auto;
-    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')
+    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#091C29')
 };`
 
 export const InfoRow = styled.div`
