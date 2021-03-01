@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import FreaturePic from '../../images/bowr.jpg'
 
 
 export const InfoContainer = styled.div`
@@ -36,6 +37,27 @@ export const InfoRow = styled.div`
     }
 `
 
+// background: linear-gradient(to right, rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.1)), url(${FreaturePic});
+// background-size:cover;
+// background:position:center;
+// max-height:400px;
+export const ProjOne = styled.div`
+    margin-bottom:15px;
+    padding: 0 15px;
+    max-width:80vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+
+`
+
+const ProjImg = styled.img`
+flex-shrink: 0;
+min-width: 100%;
+min-height: 100%;  
+`
 
 export const Column1 = styled.div`
     margin-bottom:15px;
@@ -67,6 +89,9 @@ export const TopLine = styled.div`
 
 export const Heading = styled.h1`
     color:#01bf71;
+    position:relative;
+    margin:0 auto;
+    margin-top:80px;
     font-size:48px;
     line-height:1.1;
     font-weight:600;
