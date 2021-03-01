@@ -1,3 +1,5 @@
+import InfoType from '../InfoType'
+
 export const homeObjOne = {
     id: 'about',
     lightBg: false,
@@ -5,8 +7,8 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'Premium Bank',
     headline: 'Unlimited transactions with zero fees',
-    description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting any fees.',
-    buttonLabel: 'Get Started',
+    description: <InfoType/>,
+    buttonLabel: 'Learn More',
     imgStart: false,
     img: require ('../../images/me.jpg'),
     alt: 'Car',
