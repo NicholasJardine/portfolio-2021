@@ -7,7 +7,7 @@ class InfoType extends React.Component {
         <Typical
           steps={['Hi, Im Nicholas', 3000, 'I design and build responsive websites and web apps ', 500]}
           loop={Infinity}
-          wrapper="p"
+          wrapper="h1"
         />
       )
     }

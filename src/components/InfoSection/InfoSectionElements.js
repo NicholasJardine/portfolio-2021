@@ -82,7 +82,7 @@ export const Subtitle = styled.p`
     margin-bottom:35px;
     margin-top:35px;
     font-size:18px;
-    line-height:24px;
+    line-height:32px;
     font-weight:600;
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')
     };
@@ -102,4 +102,5 @@ export const Img = styled.img`
     width:100%;
     margin: 0 0 10px 0;
     padding-right:0;
+    height:auto;
 `
