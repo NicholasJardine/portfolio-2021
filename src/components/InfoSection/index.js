@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../ButtonElement'
+import InfoType from '../InfoType';
 import { InfoContainer, InfoWrapper, InfoRow, Heading, Column1, Column2, TextWrapper, Subtitle, BtnWrap, TopLine, ImgWrap, Img} from './InfoSectionElements'
 
 
@@ -17,7 +18,7 @@ const InfoSection = ({lightBg, img, id, imgStart, description, topLine, lightTex
                         <TextWrapper>
                             <TopLine lightText={lightText}>{topLine}</TopLine>
                             <Heading lightText={lightText}>{headline}</Heading>
-                            <Subtitle darkText={darkText}>{description}</Subtitle>
+                            <Subtitle darkText={darkText}>{<InfoType/>}</Subtitle>
                                         <BtnWrap>
                                             <Button to="home"                                                          smooth={true}
                                                 duration={500}
