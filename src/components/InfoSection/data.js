@@ -1,5 +1,4 @@
 import InfoType from '../InfoType'
-
 export const homeObjOne = {
     id: 'about',
     lightBg: false,
@@ -14,7 +13,11 @@ export const homeObjOne = {
     alt: 'Car',
     dark: false,
     primary: false,
-    darkText:false
+    darkText:false,
+    projectTitle: 'Template One',
+    projectTitle2: 'Template Two',
+    projectTitle3: 'Template Three',
+    image: require ('../../images/burger.jpg')
 };
 
 export const homeObjTwo = {
@@ -27,7 +30,7 @@ export const homeObjTwo = {
     description: 'We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.',
     buttonLabel: 'Learn More',
     imgStart: true,
-    img: require ('../../images/bowr.jpg'),
+    img: require ('../../images/burger.jpg'),
     alt: 'piggybank',
     dark: false,
     primary: false,

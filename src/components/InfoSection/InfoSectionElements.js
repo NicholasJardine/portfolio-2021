@@ -100,7 +100,19 @@ export const Heading = styled.h1`
     font-size:32px;
     }
 `
-
+export const Heading2 = styled.h3`
+    color:#01bf71;
+    text-align:left;
+    margin-top:80px;
+    font-size:32px;
+    line-height:1.1;
+    font-weight:600;
+    color: ${({lightText}) => (lightText ? '#f7f8f8' : '#010606')
+    };
+    @media screen and (max-width:480px) {
+    font-size:32px;
+    }
+`
 export const Subtitle = styled.p`
     max-width:440px;
     margin-bottom:35px;
