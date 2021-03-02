@@ -27,7 +27,7 @@ export const homeObjTwo = {
     description: 'We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.',
     buttonLabel: 'Learn More',
     imgStart: true,
-    img: require ('../../images/svg-2.svg'),
+    img: require ('../../images/bowr.jpg'),
     alt: 'piggybank',
     dark: false,
     primary: false,
