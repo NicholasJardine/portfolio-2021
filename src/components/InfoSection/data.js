@@ -16,7 +16,10 @@ export const homeObjOne = {
     darkText:false,
     projectTitle: 'Template One',
     projectTitle2: 'Template Two',
-    projectTitle3: 'Template Three',
+    projectTitle3: 'Template Three',    
+    projectTitle4: 'Pictor',
+    projectTitle5: 'Raiders Rugby Covid Monitor',
+    projectTitle6: 'Template Three',
     image: require ('../../images/burger.jpg')
 };
 
