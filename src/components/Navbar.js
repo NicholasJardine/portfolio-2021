@@ -9,7 +9,7 @@ import {animateScroll as scroll} from 'react-scroll';
 
 // background:${({scrollNav}) => (scrollNav ? '#000' : 'transparernt')};
 export const Nav = styled.nav`
-    background:#000;
+    background:#091C29;
     height:80px;
     display:flex;
     justify-content:center;
