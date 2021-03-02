@@ -158,7 +158,7 @@ const Navbar = ({toggle}) => {
        <NavbarContainer>
 
            <NavLogo to="/" onClick={toggleHome}>
-              Golden 
+              NJCode 
            </NavLogo>
             <MobileIcon onClick={toggle}>
                 <FaBars></FaBars>
