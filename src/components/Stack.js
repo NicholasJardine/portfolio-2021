@@ -127,20 +127,6 @@ const SoftwareContainer = styled.div`
 `
 const Stack = () => {
     return (
-        <StackContainer>
-            <SoftwareContainer>
-                <ImgWrap>
-                    <Img src={Re}/>
-                </ImgWrap>
-                <ImgWrap>
-                    <Img src={Ra}/>
-                </ImgWrap>
-                <ImgWrap>
-                    <Img src={Rl}/>
-                </ImgWrap>
-            </SoftwareContainer>
-           <h1>Stack I use</h1> 
-
            <ServicesContainer id="services">
             <ServicesH1>Stack I Use</ServicesH1>
             <ServicesWrapper>
@@ -166,7 +152,6 @@ const Stack = () => {
 
             </ServicesWrapper>
         </ServicesContainer>
-        </StackContainer>
         
     )
     
