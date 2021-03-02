@@ -1,14 +1,22 @@
 import React, { Component } from 'react'
 import Typical from 'react-typical'
- 
+import styled from 'styled-components'
+import { HeroH1 } from './HeroSection/HeroElements'
+
+
 class InfoType extends React.Component {
     render () {
       return (
-        <Typical
-          steps={['Hi, Im Nicholas', 3000, 'I design and build responsive websites and web apps ', 5000]}
+        // <TypeBox>
+                  <Typical
+          steps={['I design and build responsive websites and web apps ', 5000]}
           loop={Infinity}
-          wrapper="h1"
+          wrapper="p"
         />
+
+
+        // </TypeBox>
+
       )
     }
   }

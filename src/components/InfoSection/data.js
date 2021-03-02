@@ -13,7 +13,7 @@ export const homeObjOne = {
     img: require ('../../images/me.jpg'),
     alt: 'Car',
     dark: true,
-    primary: true,
+    primary: false,
     darkText:false
 };
 
