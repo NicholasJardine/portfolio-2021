@@ -18,7 +18,7 @@ const InfoSection = ({lightBg, img, id, imgStart, description, topLine, lightTex
         <>
             <InfoContainer lightBg={lightBg} id={id}>
                 <InfoWrapper lightBg={lightBg}>
-                <Heading>{headline}</Heading>
+                <Heading lightText='true'>{headline}</Heading>
 {/* 
                 <ProjOne>
 

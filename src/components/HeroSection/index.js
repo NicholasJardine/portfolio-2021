@@ -25,7 +25,7 @@ const FirstButton = styled(Link)`
     transition: all 0.2s ease-in-out;
     cursor:pointer;
     border-color: '#101522';
-    border:solid 1px;
+    border:solid 2px;
     margin-top:56px;
 
     &:hover{

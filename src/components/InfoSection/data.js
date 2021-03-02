@@ -6,13 +6,13 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Premium Bank',
-    headline: '',
-    description: <InfoType/>,
-    buttonLabel: 'Learn More',
+    headline: 'Projects',
+    description: 'Design template for the real estate industry.',
+    buttonLabel: 'View Concept',
     imgStart: false,
-    img: require ('../../images/me.jpg'),
+    img: require ('../../images/bowr.jpg'),
     alt: 'Car',
-    dark: true,
+    dark: false,
     primary: false,
     darkText:false
 };
