@@ -49,7 +49,7 @@ export const HeroContent = styled.div`
     display:flex;
     flex-direction: column;
     align-items:left;
-    margin-top:128px;
+    margin-top:256px;
 `
 export const HeroH1 = styled.h1`
     color:black;
