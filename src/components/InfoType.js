@@ -9,8 +9,8 @@ class InfoType extends React.Component {
       return (
         // <TypeBox>
                   <Typical
-          steps={['I design and build responsive websites and web apps ', 5000]}
-          loop={Infinity}
+          steps={['I design and create responsive web apps ', 500, "I bring Ideas to life", 2000]}
+          loop={2}
           wrapper="p"
         />
 
