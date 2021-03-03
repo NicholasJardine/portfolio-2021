@@ -21,28 +21,30 @@ const Footer = () => {
                         </SocialLogo>
                         {/* <WebsiteRights>Golden © 2021 All rights reserved.</WebsiteRights> */}
                         <SocialIcons>
-                            <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                            {/* <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                                 <FaFacebook />
-                            </SocialIconLink>
+                            </SocialIconLink> */}
 
                             <SocialIconLink href="/" target="_blank" aria-label="Instagram">
                                 <FaInstagram />
                             </SocialIconLink>
 
-                            <SocialIconLink href="/" target="_blank" aria-label="Youtube">
+                            {/* <SocialIconLink href="/" target="_blank" aria-label="Youtube">
                                 <FaYoutube />
-                            </SocialIconLink>
+                            </SocialIconLink> */}
 
-                            <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+                            {/* <SocialIconLink href="/" target="_blank" aria-label="Twitter">
                                 <FaTwitter />
-                            </SocialIconLink>
+                            </SocialIconLink> */}
 
                             <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
                                 <FaLinkedin />
                             </SocialIconLink>
                             <NavMenu>
 
-
+                            <NavItem>
+       <NavLinks to='/'>About</NavLinks> 
+    </NavItem> 
     <NavItem>
        <NavLinks to='/'>Contact</NavLinks> 
     </NavItem> 

@@ -61,7 +61,7 @@ const HeroSection = () => {
                 <HeroH1><InfoType/></HeroH1>
 
                 <HeroBtnWrapper>
-                    <FirstButton to="signup" primary='true'  dark='true' onMouseEnter={onHover} onMouseLeave={onHover} primary="false">Get Started{hover ? <ArrowForward /> : <ArrowRight /> }
+                    <FirstButton to='about' primary='true'  dark='true' primary="false"  smooth={true} duration={700} spy={true} exact='true' offset= {-80}>Learn More{hover ? <ArrowForward /> : <ArrowRight /> }
                     </FirstButton>
                 </HeroBtnWrapper> 
                 {/* <HeroP>
