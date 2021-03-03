@@ -110,7 +110,7 @@ export const Heading2 = styled.h3`
     color: ${({lightText}) => (lightText ? '#f7f8f8' : '#010606')
     };
     @media screen and (max-width:480px) {
-    font-size:32px;
+    font-size:28px;
     }
 `
 export const Subtitle = styled.p`

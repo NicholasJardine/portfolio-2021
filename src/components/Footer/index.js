@@ -2,6 +2,7 @@ import React from 'react'
 import{    FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper,FooterLinkItems,FooterLinkTitle,FooterLink, SocialMedia, SocialMediaWrap, SocialLogo,WebsiteRights, SocialIcons, SocialIconLink} from './FooterElements'
 import {FaFacebook, FaInstagram, FaTwitter, FaLinkedin,FaYoutube} from 'react-icons/fa';
 import {animateScroll as scroll} from 'react-scroll';
+import { NavItem, NavLinks, NavMenu } from '../Navbar';
 
 const Footer = () => {
 
@@ -39,7 +40,13 @@ const Footer = () => {
                             <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
                                 <FaLinkedin />
                             </SocialIconLink>
-                            
+                            <NavMenu>
+
+
+    <NavItem>
+       <NavLinks to='/'>Contact</NavLinks> 
+    </NavItem> 
+</NavMenu>
                         </SocialIcons>
                     </SocialMediaWrap>
                 </SocialMedia>
