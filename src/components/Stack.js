@@ -3,9 +3,12 @@ import styled from 'styled-components'
 import Re from  '../images//logo.svg'
 import Ra from  '../images//rails.svg'
 import Rl from  '../images//Ruby_logo.svg'
-import Icon1 from '../images//logo.svg'
+import Icon1 from '../images//react-2.svg'
 import Icon2 from '../images//Ruby_logo.svg'
 import Icon3 from '../images//rails.svg'
+import Icon4 from '../images/css3.png'
+import Icon5 from '../images/html5.svg'
+import Icon6 from '../images/sass-1.svg'
 
 
 export const ServicesContainer = styled.div`
@@ -146,6 +149,21 @@ const Stack = () => {
 
                 <ServicesCard>
                     <ServicesIcon src={Icon3}/>
+                    {/* <ServicesH2>Premium Benefits</ServicesH2>
+                    <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP> */}
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon src={Icon4}/>
+                    {/* <ServicesH2>Premium Benefits</ServicesH2>
+                    <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP> */}
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon src={Icon5}/>
+                    {/* <ServicesH2>Premium Benefits</ServicesH2>
+                    <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP> */}
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon src={Icon6}/>
                     {/* <ServicesH2>Premium Benefits</ServicesH2>
                     <ServicesP>Unlock our special membership card that returns 5% cash back.</ServicesP> */}
                 </ServicesCard>
