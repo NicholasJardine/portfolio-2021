@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../ButtonElement'
 import InfoType from '../InfoType';
-import { InfoContainer, InfoWrapper, InfoRow, Heading,Heading2, Column1, Column2, TextWrapper, Subtitle, BtnWrap, TopLine, ImgWrap, Img, ProjOne} from './InfoSectionElements'
+import { InfoContainer, InfoWrapper, InfoRow, Heading,Heading2, Column1, Column2, TextWrapper, Subtitle, BtnWrap, TopLine, ImgWrap, Img, ProjOne, Box} from './InfoSectionElements'
 import FeaturePic from '../../images/burger.jpg'
 import ProjectPic from '../../images/business.jpg'
 import ProjectPic2 from '../../images/p.jpg'
@@ -27,7 +27,7 @@ const InfoSection = ({lightBg, img, img2, id, imgStart, description,description0
 
                     <ProjImg src={FreaturePic}/>
                 </ProjOne> */}
-
+                    <Box href="https://react-bow-tie-realty.herokuapp.com/" target="_blank" >
                     <InfoRow imgStart={imgStart} lightBg={lightBg}>
 
                         <Column1>
@@ -35,19 +35,7 @@ const InfoSection = ({lightBg, img, img2, id, imgStart, description,description0
                             {/* <TopLine lightText={lightText}>{topLine}</TopLine> */}
                             <Heading2 lightText={lightText}>{projectTitle}</Heading2>
                             <Subtitle darkText={darkText}>{description0}</Subtitle>
-                                        <BtnWrap>
-                                            <Button dark={dark} href="https://react-bow-tie-realty.herokuapp.com/" target="_blank"                                                           smooth={true}
-                                                duration={500}
-                                                spy={true}
-                                                exact="true"
-                                                offset={-80}
-                                                primary={primary ? 1: 0}
-                                                dark={dark ? 1 : 0}
-                                                dark2={dark2 ? 1: 0}>
-                                                {buttonLabel}
-
-                                            </Button>
-                                        </BtnWrap>
+                         
                         </TextWrapper>
                         
                         </Column1>
@@ -59,59 +47,41 @@ const InfoSection = ({lightBg, img, img2, id, imgStart, description,description0
                         </ImgWrap>
                         </Column2>
                     </InfoRow>
+                    </Box>
 
-                    <InfoRow imgStart={imgStart} lightBg={lightBg}>
+                <Box href="https://react-restaurant-template.herokuapp.com/" target="_blank" >
 
-                    <Column1>
-                    <TextWrapper>
-                        {/* <TopLine lightText={lightText}>{topLine}</TopLine> */}
-                        <Heading2 lightText={lightText}>{projectTitle2}</Heading2>
-                        <Subtitle darkText={darkText}>{description3}</Subtitle>
-                                    <BtnWrap>
-                                        <Button href="https://react-restaurant-template.herokuapp.com/" target="_blank"                                                         smooth={true}
-                                            duration={500}
-                                            spy={true}
-                                            exact="true"
-                                            offset={-80}
-                                            primary={primary ? 1: 0}
-                                            dark={dark ? 1 : 0}
-                                            dark2={dark2 ? 1: 0}>
-                                            {buttonLabel}
+                <InfoRow imgStart={imgStart} lightBg={lightBg}>
 
-                                        </Button>
-                                    </BtnWrap>
-                    </TextWrapper>
+                <Column1>
+                <TextWrapper>
+                    {/* <TopLine lightText={lightText}>{topLine}</TopLine> */}
+                    <Heading2 lightText={lightText}>{projectTitle2}</Heading2>
+                    <Subtitle darkText={darkText}>{description3}</Subtitle>
+                     
+                </TextWrapper>
 
-                    </Column1>
-                    <Column2>
-                    <ImgWrap>
-                        <Img src={FeaturePic} />
+                </Column1>
+                <Column2>
+                <ImgWrap>
+                    <Img src={FeaturePic} />
 
-                        {/* <img src={require ('../../images/10.png')} alt="car" /> */}
-                    </ImgWrap>
-                    </Column2>
-            </InfoRow>
+                    {/* <img src={require ('../../images/10.png')} alt="car" /> */}
+                </ImgWrap>
+                </Column2>
+                </InfoRow>
+                </Box>
 
-            <InfoRow imgStart={imgStart} lightBg={lightBg}>
+<Box  href="https://react-template-one.herokuapp.com/" target="_blank" >
+
+<InfoRow imgStart={imgStart} lightBg={lightBg}>
 
 <Column1>
 <TextWrapper>
     {/* <TopLine lightText={lightText}>{topLine}</TopLine> */}
     <Heading2 lightText={lightText}>{projectTitle3}</Heading2>
     <Subtitle darkText={darkText}>{description4}</Subtitle>
-                <BtnWrap>
-                    <Button href="https://react-template-one.herokuapp.com/" target="_blank"                                                         smooth={true}
-                        duration={500}
-                        spy={true}
-                        exact="true"
-                        offset={-80}
-                        primary={primary ? 1: 0}
-                        dark={dark ? 1 : 0}
-                        dark2={dark2 ? 1: 0}>
-                        {buttonLabel}
 
-                    </Button>
-                </BtnWrap>
 </TextWrapper>
 
 </Column1>
@@ -124,6 +94,9 @@ const InfoSection = ({lightBg, img, img2, id, imgStart, description,description0
 </Column2>
 </InfoRow>
 
+</Box>
+
+<Box href="http://pictor-web.herokuapp.com/" target="_blank" >
 <InfoRow imgStart={imgStart} lightBg={lightBg}>
 
 <Column1>
@@ -131,19 +104,7 @@ const InfoSection = ({lightBg, img, img2, id, imgStart, description,description0
     {/* <TopLine lightText={lightText}>{topLine}</TopLine> */}
     <Heading2 lightText={lightText}>{projectTitle4}</Heading2>
     <Subtitle darkText={darkText}>{description}</Subtitle>
-                <BtnWrap>
-                    <Button href="http://pictor-web.herokuapp.com/" target="_blank"                                                         smooth={true}
-                        duration={500}
-                        spy={true}
-                        exact="true"
-                        offset={-80}
-                        primary={primary ? 1: 0}
-                        dark={dark ? 1 : 0}
-                        dark2={dark2 ? 1: 0}>
-                        {buttonLabel}
-
-                    </Button>
-                </BtnWrap>
+   
 </TextWrapper>
 
 </Column1>
@@ -155,7 +116,9 @@ const InfoSection = ({lightBg, img, img2, id, imgStart, description,description0
 </ImgWrap>
 </Column2>
 </InfoRow>
+</Box>
 
+<Box href="http://raiders-rugby.herokuapp.com/" target="_blank">
 <InfoRow imgStart={imgStart} lightBg={lightBg}>
 
 <Column1>
@@ -163,19 +126,6 @@ const InfoSection = ({lightBg, img, img2, id, imgStart, description,description0
     {/* <TopLine lightText={lightText}>{topLine}</TopLine> */}
     <Heading2 lightText={lightText}>{projectTitle5}</Heading2>
     <Subtitle darkText={darkText}>{description}</Subtitle>
-                <BtnWrap>
-                    <Button href="http://raiders-rugby.herokuapp.com/" target="_blank"                                                           smooth={true}
-                        duration={500}
-                        spy={true}
-                        exact="true"
-                        offset={-80}
-                        primary={primary ? 1: 0}
-                        dark={dark ? 1 : 0}
-                        dark2={dark2 ? 1: 0}>
-                        {buttonLabel}
-
-                    </Button>
-                </BtnWrap>
 </TextWrapper>
 
 </Column1>
@@ -187,6 +137,8 @@ const InfoSection = ({lightBg, img, img2, id, imgStart, description,description0
 </ImgWrap>
 </Column2>
 </InfoRow>
+</Box>
+
 
 
                 </InfoWrapper>

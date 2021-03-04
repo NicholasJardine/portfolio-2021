@@ -100,7 +100,11 @@ export const Heading = styled.h1`
     font-size:32px;
     }
     opacity:0.7;
-
+    @media screen and (max-width:480px) {
+        font-size:28px;
+        margin-top:24px;
+        margin-bottom:40px;
+        }
 `
 // color: ${({lightText}) => (lightText ? '#f7f8f8' : '#010606')
 // };
@@ -113,11 +117,22 @@ export const Heading2 = styled.h3`
 
     @media screen and (max-width:480px) {
     font-size:28px;
+    margin-top:0;
     }
+
     opacity:0.7;
 
 `
+export const Box = styled.a`
+text-decoration:none;
+color:#fff;
+    opacity:0.6;
 
+    &:hover{
+        opacity:1;
+    }
+
+`
 // color: ${({darkText}) => (darkText ? '#010606' : '#fff')
 // };
 export const Subtitle = styled.p`
@@ -129,6 +144,10 @@ export const Subtitle = styled.p`
     line-height:40px;
     font-weight:600;
     opacity:0.7;
+
+    @media screen and (max-width:768px) {
+        margin-bottom:100px;
+        }
 
 `
 

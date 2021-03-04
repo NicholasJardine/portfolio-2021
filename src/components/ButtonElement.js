@@ -12,10 +12,10 @@ const Button = styled.a`
     };
     font-size: ${({fontBig}) => (fontBig ? '20px' : ' 16px')
     };
-
+    text-decoration: none;
     outline:none;
     display:flex;
-    jusify-conten:center;
+    jusify-content:center;
     align-items:center;
     transition: all 0.2s ease-in-out;
     cursor:pointer;
