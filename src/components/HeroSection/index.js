@@ -27,7 +27,7 @@ const FirstButton = styled(Link)`
     border-color: '#101522';
     border:solid 2px;
     margin-top:56px;
-
+    font-weight:bold;
     &:hover{
         transition: all 0.2s ease-in-out;
         background: ${({primary}) => (primary ? '#fff' : '#01BF71')};
