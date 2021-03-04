@@ -36,7 +36,7 @@ const InfoSection = ({lightBg, img, img2, id, imgStart, description,description0
                             <Heading2 lightText={lightText}>{projectTitle}</Heading2>
                             <Subtitle darkText={darkText}>{description0}</Subtitle>
                                         <BtnWrap>
-                                            <Button dark={dark} to="home"                                                          smooth={true}
+                                            <Button dark={dark} href="https://react-bow-tie-realty.herokuapp.com/" target="_blank"                                                           smooth={true}
                                                 duration={500}
                                                 spy={true}
                                                 exact="true"
@@ -68,7 +68,7 @@ const InfoSection = ({lightBg, img, img2, id, imgStart, description,description0
                         <Heading2 lightText={lightText}>{projectTitle2}</Heading2>
                         <Subtitle darkText={darkText}>{description3}</Subtitle>
                                     <BtnWrap>
-                                        <Button to="home"                                                          smooth={true}
+                                        <Button href="https://react-restaurant-template.herokuapp.com/" target="_blank"                                                         smooth={true}
                                             duration={500}
                                             spy={true}
                                             exact="true"
@@ -100,7 +100,7 @@ const InfoSection = ({lightBg, img, img2, id, imgStart, description,description0
     <Heading2 lightText={lightText}>{projectTitle3}</Heading2>
     <Subtitle darkText={darkText}>{description4}</Subtitle>
                 <BtnWrap>
-                    <Button to="home"                                                          smooth={true}
+                    <Button href="https://react-template-one.herokuapp.com/" target="_blank"                                                         smooth={true}
                         duration={500}
                         spy={true}
                         exact="true"
@@ -132,7 +132,7 @@ const InfoSection = ({lightBg, img, img2, id, imgStart, description,description0
     <Heading2 lightText={lightText}>{projectTitle4}</Heading2>
     <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                    <Button to="home"                                                          smooth={true}
+                    <Button href="http://pictor-web.herokuapp.com/" target="_blank"                                                         smooth={true}
                         duration={500}
                         spy={true}
                         exact="true"
@@ -164,7 +164,7 @@ const InfoSection = ({lightBg, img, img2, id, imgStart, description,description0
     <Heading2 lightText={lightText}>{projectTitle5}</Heading2>
     <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                    <Button to="home"                                                          smooth={true}
+                    <Button href="http://raiders-rugby.herokuapp.com/" target="_blank"                                                           smooth={true}
                         duration={500}
                         spy={true}
                         exact="true"
