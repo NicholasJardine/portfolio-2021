@@ -11,6 +11,7 @@ import Icon5 from '../images/html5.svg'
 import Icon6 from '../images/sass-1.svg'
 import Icon7 from '../images/js.svg'
 import Icon8 from '../images/json.svg'
+import Icon9 from '../images/git-icon.svg'
 
 export const ServicesContainer = styled.div`
    height: auto;
@@ -69,17 +70,23 @@ export const ServicesCard = styled.div`
     }
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    animation: float 1s infinite;
+
 `
 export const ServicesIcon = styled.img`
    height:160px;
    width:160px;
    margin-bottom:10px; 
+   
 `
 export const ServicesH1 = styled.h1`
-    font-size: 2.5rem;
+    font-size: 3.0rem;
     color: #091C29;
     margin-bottom: 64px;
     margin-top: 64px;
+    font-weight:500;
+    animation: float 3s infinite;
+
     @media screen and (max-width: 480px){
         font-size: 2rem;
     }
@@ -192,6 +199,20 @@ const Stack = () => {
 
             </ServicesWrapper>
 
+            <ServicesH1>Version Control</ServicesH1>
+            <ServicesWrapper>
+
+                <ServicesCard>
+
+                    <ServicesIcon src={Icon9}/>
+                    {/* <ServicesH2>Reduce Expenses</ServicesH2>
+                    <ServicesP> We help reduce your fees and increase your overall revenue.</ServicesP> */}
+                </ServicesCard>
+
+
+
+
+            </ServicesWrapper>
             
         </ServicesContainer>
         

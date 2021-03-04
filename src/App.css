@@ -42,3 +42,10 @@
   margin: 0;
   padding: 0;
 }
+
+.card-float {
+  animation: float 3s infinite;
+}
+.card-float-opposite {
+  animation: refloat 3s infinite;
+}
