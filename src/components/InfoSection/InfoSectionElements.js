@@ -132,6 +132,10 @@ color:#fff;
         opacity:1;
     }
 
+    @media screen and (max-width:768px) {
+opacity:1;
+        }
+
 `
 // color: ${({darkText}) => (darkText ? '#010606' : '#fff')
 // };
