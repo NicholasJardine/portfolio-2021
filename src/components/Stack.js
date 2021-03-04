@@ -9,10 +9,11 @@ import Icon3 from '../images//rails.svg'
 import Icon4 from '../images/css3.png'
 import Icon5 from '../images/html5.svg'
 import Icon6 from '../images/sass-1.svg'
-
+import Icon7 from '../images/js.svg'
+import Icon8 from '../images/json.svg'
 
 export const ServicesContainer = styled.div`
-   height: 800px;
+   height: auto;
    display: flex;
    flex-direction: column;
    justify-content:center;
@@ -59,7 +60,7 @@ export const ServicesCard = styled.div`
     padding:30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
-
+    margin-bottom:48px;
     &:hover {
         transform: scale(1.02);
         transition: all 0.2s ease-in-out;
@@ -76,6 +77,7 @@ export const ServicesH1 = styled.h1`
     font-size: 2.5rem;
     color: #091C29;
     margin-bottom: 64px;
+    margin-top: 64px;
 
     @media screen and (max-width: 480px){
         font-size: 2rem;
@@ -169,6 +171,27 @@ const Stack = () => {
                 </ServicesCard>
 
             </ServicesWrapper>
+            <ServicesH1>Other Experience</ServicesH1>
+            <ServicesWrapper>
+
+                <ServicesCard>
+
+                    <ServicesIcon src={Icon7}/>
+                    {/* <ServicesH2>Reduce Expenses</ServicesH2>
+                    <ServicesP> We help reduce your fees and increase your overall revenue.</ServicesP> */}
+                </ServicesCard>
+
+                <ServicesCard>
+                    <ServicesIcon src={Icon8}/>
+                    {/* <ServicesH2>Virtual Offices</ServicesH2>
+                    <ServicesP> You can access our platform online anywhere in the world.</ServicesP> */}
+                </ServicesCard>
+
+
+
+            </ServicesWrapper>
+
+            
         </ServicesContainer>
         
     )
