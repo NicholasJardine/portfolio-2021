@@ -7,7 +7,7 @@ import ProjectPic from '../../images/business.jpg'
 import ProjectPic2 from '../../images/p.jpg'
 import ProjectPic3 from '../../images/raiders.jpg'
 import styled from 'styled-components'
-
+import FirstButton from '../HeroSection/index'
 const ProjImg = styled.img`
 flex-shrink: 0;
 min-width: 100%;
@@ -36,7 +36,7 @@ const InfoSection = ({lightBg, img, img2, id, imgStart, description,description0
                             <Heading2 lightText={lightText}>{projectTitle}</Heading2>
                             <Subtitle darkText={darkText}>{description0}</Subtitle>
                                         <BtnWrap>
-                                            <Button to="home"                                                          smooth={true}
+                                            <Button dark={dark} to="home"                                                          smooth={true}
                                                 duration={500}
                                                 spy={true}
                                                 exact="true"

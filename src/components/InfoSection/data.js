@@ -7,7 +7,7 @@ export const homeObjOne = {
     topLine: 'Premium Bank',
     headline: 'Projects',
     description0: 'Design template for the real estate industry.',
-    description: 'A web app that connects aspiring actors/actresses with production companies. Special features include online audition processes, interactive dashboard and more. ',
+    description: 'A web app that connects aspiring actors/actresses with production companies. features include online audition processes, personal dashboard and more. ',
     description1: 'A webapp that allows the club to store and manage information regarding players presenting Covid-19 symptoms.',
     description2: 'Design template for the real estate industry.',
     description3: 'Design template for a burger joint. adaptable for any restaurant.',

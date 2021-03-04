@@ -88,40 +88,48 @@ export const TopLine = styled.div`
 `
 
 export const Heading = styled.h1`
-    color:#01bf71;
+    color:#FFCEE2;
     text-align:left;
     margin-top:80px;
     font-size:48px;
     line-height:1.1;
     font-weight:600;
-    color: ${({lightText}) => (lightText ? '#f7f8f8' : '#010606')
+    color: ${({lightText}) => (lightText ? '#f7f8f8' : '#FFCEE2')
     };
     @media screen and (max-width:480px) {
     font-size:32px;
     }
+    opacity:0.7;
+
 `
+// color: ${({lightText}) => (lightText ? '#f7f8f8' : '#010606')
+// };
 export const Heading2 = styled.h3`
-    color:#01bf71;
     text-align:left;
     margin-top:80px;
     font-size:32px;
     line-height:1.1;
     font-weight:600;
-    color: ${({lightText}) => (lightText ? '#f7f8f8' : '#010606')
-    };
+
     @media screen and (max-width:480px) {
     font-size:28px;
     }
+    opacity:0.7;
+
 `
+
+// color: ${({darkText}) => (darkText ? '#010606' : '#fff')
+// };
 export const Subtitle = styled.p`
+
     max-width:440px;
     margin-bottom:35px;
     margin-top:35px;
     font-size:18px;
     line-height:40px;
     font-weight:600;
-    color: ${({darkText}) => (darkText ? '#010606' : '#fff')
-    };
+    opacity:0.7;
+
 `
 
 export const BtnWrap = styled.div`
