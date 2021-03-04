@@ -64,8 +64,11 @@ export const ServicesCard = styled.div`
         transform: scale(1.02);
         transition: all 0.2s ease-in-out;
         cursor: pointer;
-    }
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
+    }
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
 `
 export const ServicesIcon = styled.img`
    height:160px;
