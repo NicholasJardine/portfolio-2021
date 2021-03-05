@@ -98,11 +98,12 @@ export const Heading = styled.h1`
     };
     @media screen and (max-width:480px) {
     font-size:32px;
+    margin-top:-80px;
+
     }
     opacity:0.7;
     @media screen and (max-width:480px) {
         font-size:28px;
-        margin-top:24px;
         margin-bottom:40px;
         }
 `

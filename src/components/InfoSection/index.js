@@ -125,7 +125,7 @@ const InfoSection = ({lightBg, img, img2, id, imgStart, description,description0
 <TextWrapper>
     {/* <TopLine lightText={lightText}>{topLine}</TopLine> */}
     <Heading2 lightText={lightText}>{projectTitle5}</Heading2>
-    <Subtitle darkText={darkText}>{description}</Subtitle>
+    <Subtitle darkText={darkText}>{description1}</Subtitle>
 </TextWrapper>
 
 </Column1>
