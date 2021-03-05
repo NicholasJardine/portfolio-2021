@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import InfoType from '../components/InfoType';
 import HeroSection from '../components/HeroSection';
 import Stack from '../components/Stack';
+import Sidebar from '../components/Sidebar';
 
 
 const Home = () => {
@@ -19,8 +20,7 @@ const Home = () => {
 
     return (
         <> 
-
-        {/* <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar> */}
+        <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
         <Navbar toggle={toggle} />
         <HeroSection/>
         <InfoSection {...homeObjOne} />
