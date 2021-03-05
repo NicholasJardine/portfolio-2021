@@ -50,6 +50,10 @@ export const HeroContent = styled.div`
     flex-direction: column;
     align-items:left;
     margin-top:256px;
+    @media screen and (max-width:768px) {
+        margin-top:124px;
+    }
+
 `
 export const HeroH1 = styled.h1`
     color:black;
